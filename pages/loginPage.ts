@@ -58,7 +58,7 @@ export class LoginPage {
   }
 
   async goto() {
-    await this.page.goto("http://localhost:5174/login");
+    await this.page.goto("https://polite-smoke-09499ae00.7.azurestaticapps.net/login");
   }
 
   async verifyLoginFormVisible() {

@@ -37,7 +37,7 @@ export default defineConfig({
     headless : true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    trace: 'retain-on-failure',
+    trace: 'on',
     
 
     actionTimeout: 15000,      // for click, fill, etc.
